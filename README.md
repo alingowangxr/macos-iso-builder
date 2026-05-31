@@ -2,6 +2,8 @@
 
 Build bootable macOS installer ISOs and DMGs directly from Apple's servers — no Mac required.
 
+English | [繁體中文](README.zh-TW.md)
+
 This project has two parts:
 1. A script (`mkmaciso`) that uses only macOS built-in tools and commands to download and install the full macOS installer from Apple's servers into **/Applications**, and then creates bootable ISO/DMG images.
 2. GitHub Action workflows that run `mkmaciso` on Azure datacenter-hosted Mac minis if you don't have macOS.
